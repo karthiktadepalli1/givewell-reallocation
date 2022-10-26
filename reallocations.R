@@ -178,11 +178,11 @@ comparison <- merged %>%
 
 worst <- comparison %>%
   filter(worst) %>%
-  select(yr, worst_charity = charity, min_ce = ce)
+  select(yr, least_ce = charity, min_ce = ce)
 
 best <- comparison %>%
   filter(best) %>%
-  select(yr, best_charity = charity, max_ce = ce)
+  select(yr, most_ce = charity, max_ce = ce)
 
 # merge them, make the cost-effectiveness ratio
 tab <- worst %>% 

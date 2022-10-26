@@ -1,16 +1,16 @@
-# Creating the equivalent of millions in cash transfers, without spending a penny
+# Millions in cash transfers, without spending a penny
 
 > People who decide how to spend health budgets hold the lives or livelihoods of many other people in their hands. They are literally making life-or-death decisions. Most decisions of this sort take dramatically insufficient account of cost-effectiveness. As a result, thousands or millions of people die who otherwise would have lived. The few are saved at the expense of the many. It is typically done out of ignorance about the significance of the cost-effectiveness landscape rather than out of prejudice, but the effects are equally serious.
 
 &mdash;Toby Ord, *The Moral Imperative Towards Cost-Effectiveness in Global Health*
 
-What if GiveWell could generate value equivalent to donating $3-$20 million to GiveDirectly, without spending any money at all?
+What if GiveWell could generate an amount of value equivalent to donating $3-$20 million to GiveDirectly, without spending any money at all?
 
 Charities, even within GiveWell's top charities list, vary in their cost-effectiveness. This submission explores a simple counterfactual: how much value GiveWell could create by reallocating a small fraction of their giving from less-effective top charities to more-effective top charities. Specifically, I consider the following *extremely conservative* scenario:
 
 1. I consider only charities that received funding from GiveWell in a given calendar year.
-2. I rank these charities by their estimated cost-effectiveness within that year.[^1]
-3. I take *10\%* of the funding GiveWell provided to the least-effective charity, and reallocate that money to the most-effective charity that GiveWell funded that year.[^2]
+2. I rank these charities by their estimated cost-effectiveness within that year.
+3. I take *10\%* of the funding GiveWell provided to the least-effective charity, and reallocate that money to the most-effective charity that GiveWell funded that year.
 4. I consider the net units of value created by this reallocation (units from the more effective charity, minus units lost from the less effective charity), using GiveWell's units where 1 unit is equivalent to a dollar to GiveDirectly.
 
 Depending on the year, this reallocation would be equivalent to donating $3-$20 million to GiveDirectly.
@@ -65,6 +65,6 @@ As a final note, I've picked 10% as a sensible, conservative fraction, so that e
 
 ![image](./output/reallocation_fraction.png)
 
-In short, GiveWell should take its cost-effectiveness analyses a little more seriously than they currently do---it could create millions in value.
+In short, GiveWell should take its cost-effectiveness analyses a little more seriously than they currently do---doing so could create millions in value at no extra cost.
 
 *All details of this analysis, including how I compiled cost-effectiveness estimates and the Top Charities Fund allocations, are available in [this GitHub repo.](https://github.com/karthiktadepalli1/givewell-reallocation)*
